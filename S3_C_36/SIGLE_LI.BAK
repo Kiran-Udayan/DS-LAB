@@ -1,0 +1,31 @@
+//Linked List_menu driven
+#include<stdio.h>
+#include<conio.h>
+#include<process.h>
+#include<stdlib.h>
+//creating node
+struct node
+{
+	int data;
+	struct node*link;
+
+}*header=null,*temp1,*temp2,*ptr,*ptr1;
+
+void main()
+{
+	void create();
+	void insert_beg();
+	void insert_end();
+	void insert_pos();
+	void display();
+	void delete_beg();
+	void delete_end();
+	void delete_pos();
+	int ch_1,ch_2;
+	clrscr();
+	while(1)
+	{
+	 printf("\nSINGLE LINKED LIST MENU\n\t1.INSERT\n\t2.DELETE\n\t3.DISPLAY\n\t4.EXIT ");
+
+	}
+
